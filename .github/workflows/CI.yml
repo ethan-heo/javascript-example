@@ -29,6 +29,6 @@ jobs:
         with:
           node-version: 16.x
       - name: Run install packages
-        run: yarn install
+        run: npm install
       - name: Run test
-        run: yarn test
+        run: npm test
