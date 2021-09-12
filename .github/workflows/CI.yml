@@ -28,9 +28,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-      # Runs a set of commands using the runners shell
-      - name: Run nvm use
-        run: nvm use
       - name: Run install packages
         run: yarn install
       - name: Run test
