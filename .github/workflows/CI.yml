@@ -27,6 +27,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
+          persist-credentials: false
       - name: Run install packages
         run: npm install
       - name: Run test
