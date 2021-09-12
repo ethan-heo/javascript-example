@@ -1,0 +1,1 @@
+### [프로토타입과 상속](./inherit_and_prototype.test.ts)
