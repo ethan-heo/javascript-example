@@ -28,6 +28,8 @@ jobs:
         with:
           node-version: 16.x
           persist-credentials: false
+      - name: Go to Path
+        run: cd ..
       - name: Run install packages
         run: npm install
       - name: Run test
